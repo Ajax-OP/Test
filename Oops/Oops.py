@@ -1,4 +1,4 @@
-#This is a program of and oops concept that based on Wappnet System 
+#This is a program of oops concept and it is for Wappnet System 
 
 #Public Class 
 #Base Class
@@ -58,7 +58,8 @@ def main():
     global EmpID
     EmpID = int(input("\tEnter your Employe ID : "))
     global Pos
-    Pos = input("\tEnter your Role: ").lower
+    Pos = input("\tEnter your Role: ")
+    Pos = Pos.lower()
     global Wday
     Wday = int(input("\tEnter your working days at company : "))
     P = _employe(Name,EmpID,Pos,Wday)
